@@ -1,12 +1,11 @@
 # speedtestpy
-using speedtest in python
 
-to install speedtest first use:
+## Running
 
-debian : $ sudo apt-get install python-pip
-arch   : $ sudo pacman -S python-pip
+1. Install pip:
+  + Debian : `$ sudo apt-get install python-pip`
+  + Arch   : `$ sudo pacman -S python-pip` ~~Not mandatory~~
 
-then:
-
-debian : $ sudo pip install speedtest-cli
-arch   : $ sudo pacman -S speedtest-cli
+1. Install python library:
+  + Debian : `$ sudo pip install speedtest-cli`
+  + Arch   : `$ sudo pacman -S speedtest-cli`
